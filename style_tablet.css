@@ -1,0 +1,144 @@
+@media (min-width: 641px) and (max-width: 1200px) {
+  .content {
+    justify-content: space-between;
+    padding: 0px 35px 0px 35px;
+  }
+  .popup-close-button {
+    width: 25px;
+    height: 25px;
+    left: calc(390px - 25px);
+  }
+  .radio-button {
+    width: 15px;
+    height: 15px;
+  }
+  .radio-option:not(:first-child) {
+    margin-left: 35px;
+  }
+
+  .header {
+    background-image: url(../images/banner-bg-tablet.jpg);
+  }
+  .header-title {
+    width: 636px;
+  }
+  .header-title-text {
+    font-size: 40px;
+  }
+
+  .header-logo {
+    width: 158px;
+  }
+
+  .hamburger-menu {
+    width: 23px;
+    height: 19px;
+    position: relative;
+    cursor: pointer;
+  }
+  .hamburger-menu-icon {
+    width: 23px;
+    height: 3px;
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+  }
+  .hamburger-menu-icon::before {
+    content: "";
+    display: flex;
+    width: 23px;
+    height: 3px;
+    background-color: #fff;
+    top: 8px;
+    position: absolute;
+  }
+  .hamburger-menu-icon::after {
+    content: "";
+    display: flex;
+    width: 23px;
+    height: 3px;
+    background-color: #fff;
+    top: 16px;
+    position: absolute;
+  }
+  .header-menu-list-item {
+    display: none;
+  }
+
+  .main {
+    width: 390px;
+    margin: 50px 35px 50px 0;
+  }
+  .main-title {
+    font-size: 18px;
+  }
+
+  .trend-article-title-link {
+    font-size: 17px;
+  }
+
+  .article {
+    width: 390px;
+    min-height: 302px;
+    margin-right: 35px;
+  }
+  .article:nth-child(n + 2) {
+    margin-top: 40px;
+  }
+  .article:not(:last-child) {
+    border-bottom: solid #eeeeee 3px;
+  }
+  .article-img {
+    width: 390px;
+    height: 302px;
+
+    margin-bottom: 18px;
+  }
+  .article-title {
+    margin-bottom: 37px;
+  }
+  .article-title-link {
+    font-size: 17px;
+  }
+  .meta {
+    margin-bottom: 37px;
+  }
+  .article-text {
+    margin-bottom: 20px;
+  }
+
+  .product-title {
+    font-size: 17px;
+  }
+  .product {
+    width: 335px;
+    margin-bottom: 28px;
+  }
+  .product-img {
+    width: 292px;
+    height: 227px;
+  }
+  .product-img1 {
+    background-image: url(../images/shop-item-tablet1.jpg);
+  }
+  .product-img2 {
+    background-image: url(../images/shop-item-tablet2.jpg);
+  }
+  .product-img3 {
+    background-image: url(../images/shop-item-tablet3.jpg);
+  }
+}
+
+@media (min-width: 641px) and (orientation: landscape) and (max-width: 1200px) {
+  .trends {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .trend-article {
+    width: calc(50% - 2px);
+    height: 245px;
+  }
+  .trend-article:not(:first-child) {
+    margin-left: 0;
+  }
+}
