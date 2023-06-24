@@ -81,9 +81,10 @@
     width: 390px;
     min-height: 302px;
     margin-right: 35px;
-  }
-  .article:nth-child(n + 2) {
     margin-top: 40px;
+  }
+  .first-article {
+    margin-top: 0px;
   }
   .article:not(:last-child) {
     border-bottom: solid #eeeeee 3px;

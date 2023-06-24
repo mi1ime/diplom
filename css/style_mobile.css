@@ -112,9 +112,10 @@
 
     margin-right: auto;
     margin-left: auto;
-  }
-  .article:nth-child(n + 2) {
     margin-top: 35px;
+  }
+  .first-article {
+    margin-top: 0px;
   }
   .article {
     border-bottom: solid #eeeeee 3px;
